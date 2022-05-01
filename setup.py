@@ -9,7 +9,7 @@ setup(
     packages=['efficientdet'],
     description='converting google\'s automl repo into a python package',
     install_requires=[
-      "absl",
+      "absl-py",
       "absl_py==0.12.0",
       "lxml==4.7.1",
       "matplotlib",
