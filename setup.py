@@ -17,7 +17,8 @@ setup(
       "pycocotools==2.0.4",
       "PyYAML==6.0",
       "six",
-      "tensorflow_addons",
+      "tensorflow==2.5.0",
+      "tensorflow_addons==0.13.0",
       "tensorflow_datasets==4.4.0",
       "tensorflow_hub==0.12.0",
       "tensorflow_model_optimization==0.7.0"
