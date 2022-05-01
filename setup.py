@@ -6,7 +6,7 @@ setup(
     author='X.X',
     url='https://github.com/google/automl',
     license='LICENSE',
-    packages=['automl_efficientdet'],
+    packages=['efficientdet'],
     description='converting google\'s automl repo into a python package',
     install_requires=[
       "absl==0.0",
