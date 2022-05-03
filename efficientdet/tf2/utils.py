@@ -651,3 +651,6 @@ def recompute_grad(recompute=False):
     return f
 
   return _wrapper
+
+def ads(x,v):
+  return x+v
