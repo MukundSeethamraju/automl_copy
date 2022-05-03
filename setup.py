@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='automl_efficientdet',
+    name='efficientdet',
     version='0.0.1',
     author='X.X',
     url='https://github.com/google/automl',
     license='LICENSE',
-    packages=find_packages(),
+    packages=find_packages(include=('efficientdet*',)),
     description='converting google\'s automl repo into a python package',
     install_requires=[
       "absl-py",
