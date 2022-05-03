@@ -1,4 +1,4 @@
-from distutils.core import setup
+from distutils.core import setup, find_packages
 
 setup(
     name='automl_efficientdet',
@@ -6,7 +6,7 @@ setup(
     author='X.X',
     url='https://github.com/google/automl',
     license='LICENSE',
-    packages=['efficientdet', 'efficientdet.aug'],
+    packages=find_packages(),
     description='converting google\'s automl repo into a python package',
     install_requires=[
       "absl-py",
